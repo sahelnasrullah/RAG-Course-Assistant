@@ -1,0 +1,15 @@
+# secrets
+.env
+
+# environments / caches
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# generated vector index (rebuild with: python -m rag.cli ingest)
+index/
+
+# logs
+*.log
+*.egg-info/

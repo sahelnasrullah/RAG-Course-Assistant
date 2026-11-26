@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rag-course-assistant"
+version = "0.1.0"
+description = "Retrieval-Augmented Generation assistant for questions about university course documents"
+requires-python = ">=3.10"
+# Dependencies are pinned in requirements.txt (torch needs a CPU/GPU-specific index).
+
+[project.scripts]
+rag = "rag.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

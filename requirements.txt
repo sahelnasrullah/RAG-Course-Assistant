@@ -1,0 +1,14 @@
+# CPU-only torch (no GPU locally). On a GPU machine / Colab, install the default torch wheel instead:
+#   pip install torch==2.15.0
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.15.0
+
+pymupdf==2.1
+chromadb==1.5.9
+sentence-transformers==6.3.0
+transformers==5.24.1
+rank-bm25==0.2.2
+numpy==2.5.5
+
+# tests
+pytest==8.4.2
