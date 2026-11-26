@@ -4,10 +4,6 @@ A Retrieval-Augmented Generation (RAG) assistant that answers students' question
 university course documents (course syllabi and study regulations at Blekinge Institute of
 Technology), using only open-source models that run locally.
 
-Course project for **DV2658 Generative Artificial Intelligence** (BTH).
-Group: Ahmad Saloukha, Sahel Nasrullah, Mohamed Rami Karkour. Project proposal:
-[`Part1_Project_Summary.md`](Part1_Project_Summary.md).
-
 Real output from the evaluation run (`Qwen2.5-3B-Instruct` on CPU):
 
 ```
